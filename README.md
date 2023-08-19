@@ -13,6 +13,7 @@ All questions and requests can be sent to lioliovitt@gmail.com
 Description
 ---
 
+$p_u = i^3$
 
 ## Cite program
 
