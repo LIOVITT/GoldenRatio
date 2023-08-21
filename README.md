@@ -13,7 +13,7 @@ All questions and requests can be sent to lioliovitt@gmail.com
 Description
 ---
 
-$p_u = i^3$
+$p_u = i^1304827394872349823$
 
 ## Cite program
 
