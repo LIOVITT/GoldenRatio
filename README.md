@@ -13,7 +13,7 @@ All questions and requests can be sent to lioliovitt@gmail.com
 Description
 ---
 
-$p_u = i^1.345$
+$p_u = i^45$
 
 ## Cite program
 
