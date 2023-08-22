@@ -40,9 +40,27 @@ To make radius and teta angle values need to use this formulas
 
 $`r=aphi^{2teta/pi}`$
 
-
-
 where phi is golden ration, and a is arbitrary positive real constant
+
+
+line_theta = np.linspace(0, pi, n+1)
+line_phi = np.linspace(pi, pi/2, n+1)
+
+Values for the sphere envelope line
+
+
+Change coordinates due to line
+$`
+line_y = sin(line_phi)sin(teta)r
+`$
+$`
+line_z = sin(line_phi)cos(teta)r
+`$
+
+$`
+line_x = sqrt{1-line_y^2-line_z^2}
+`$
+
 
 ## Cite program
 
