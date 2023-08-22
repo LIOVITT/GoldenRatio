@@ -25,8 +25,12 @@ z = np.cos(phi)
 whrere phi and theta are given by the following:
 
 theta, phi = [0:2*pi:100],[1.1*pi:pi/3:100]
+radius in this case will be equal to one.
 
-$p_u = i^4$
+limitation of the list from 0 to two pi is made due to the fact that the measurement system is made in radians,
+and also limitation of theta from 1.1 pi to pi/3 is obtained to create a cup effect.
+
+p_u = i^4
 
 ## Cite program
 
