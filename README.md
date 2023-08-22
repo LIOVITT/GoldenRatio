@@ -59,7 +59,7 @@ line_z = sin(linephi)cos(teta)r,
 `$
 
 $`
-line_x = sqrt{1-line_y^2-line_z^2}
+line_x = \sqrt{1-line_y^2-line_z^2}
 `$
 
 
