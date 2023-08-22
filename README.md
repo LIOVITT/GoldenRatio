@@ -16,6 +16,16 @@ First, programmatically creates a sphere in three-dimensional space, for this we
 relationship and constraints from 0 to 2 pi and from 1.1 pi to pi divided by three, all this is needed to create the shape
 of the cup, for a better representation of the beauty of the golden ratio.
 
+x, y and z are given by the following formulas:
+
+x = np.sin(phi) * np.cos(theta)
+y = np.sin(phi) * np.sin(theta)
+z = np.cos(phi)
+
+whrere phi and theta are given by the following:
+
+$theta, phi = 0:2*np.pi:100j,np.pi*1.1:np.pi/3:100j$
+
 $p_u = i^4$
 
 ## Cite program
