@@ -68,7 +68,7 @@ Changes x, y, and z values to sphere coordinates
 $`
 alpha_0 = (pi/(n_d/2))i 
 `$
-where $`n_d`$ is 12 - values og spirals
+where $`n_d`$ is 12 - values of spirals
 
 $`
 line{x_d} = cos(alpha_0)line_x - sin(alpha_0)line_y, 
@@ -76,6 +76,7 @@ line{x_d} = cos(alpha_0)line_x - sin(alpha_0)line_y,
 $`
 line{y_d} = sin(alpha_0)line_x + cos(alpha_0)line_y, 
 `$
+
 $`
 line{z_d} = line_z
 `$
