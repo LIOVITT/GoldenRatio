@@ -17,11 +17,17 @@ relationship and constraints from 0 to 2 pi and from 1.1 pi to pi divided by thr
 of the cup, for a better representation of the beauty of the golden ratio.
 
 x, y and z are given by the following formulas:
-$$/
-x = sin(phi) * cos(theta)/
-y = sin(phi) * sin(theta)/
+$`
+x = sin(phi) * cos(theta)
+
+y = sin(phi) * sin(theta)
+
 z = cos(phi)
-$$
+`$
+
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 whrere phi and theta are given by the following:
 
 theta, phi = [0:2*pi:100],[1.1*pi:pi/3:100]
