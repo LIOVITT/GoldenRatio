@@ -19,10 +19,10 @@ of the cup, for a better representation of the beauty of the golden ratio.
 x, y and z are given by the following formulas:
 
 $`
-x = sin(phi) * cos(theta)
+x = sin(phi) * cos(theta),
 `$
 $`
-y = sin(phi) * sin(theta)
+y = sin(phi) * sin(theta),
 `$
 $`
 z = cos(phi)
