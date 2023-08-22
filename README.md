@@ -24,7 +24,7 @@ z = np.cos(phi)
 
 whrere phi and theta are given by the following:
 
-theta, phi = [0:2*pi:100],[1.1*pi:np.pi/3:100]
+theta, phi = [0:2*pi:100],[1.1*pi:pi/3:100]
 
 $p_u = i^4$
 
