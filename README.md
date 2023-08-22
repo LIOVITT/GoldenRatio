@@ -73,6 +73,7 @@ where $`n_d`$ is 12 - values of spirals
 $`
 line{x_d} = cos(alpha_0)line_x - sin(alpha_0)line_y, 
 `$
+
 $`
 line{y_d} = sin(alpha_0)line_x + cos(alpha_0)line_y, 
 `$
