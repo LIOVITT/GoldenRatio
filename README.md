@@ -19,10 +19,10 @@ of the cup, for a better representation of the beauty of the golden ratio.
 x, y and z are given by the following formulas:
 
 $`
-x = sin(phi) * cos(theta),
+x = sin(phi) cos(theta),
 `$
 $`
-y = sin(phi) * sin(theta),
+y = sin(phi) sin(theta),
 `$
 $`
 z = cos(phi)
@@ -38,7 +38,7 @@ and also limitation of theta from 1.1 pi to pi/3 is obtained to create a cup eff
 
 To make radius and teta angle values need to use this formulas
 
-$`r=a*phi^{{2*teta}/{pi}}`$
+$`r=aphi^{2teta/pi}`$
 
 
 
