@@ -2,7 +2,7 @@ GoldenRatio 3D version 1.0
 ====================
 [![License](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://github.com/)
 
-**GoldenRatio 3D** is a python program for . 
+**GoldenRatio 3D** is a python program for the representation of the beauty of the golden ratio in 3D. 
 
 Authors and contributor list:
 ---
