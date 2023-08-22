@@ -50,6 +50,7 @@ Values for the sphere envelope line
 
 
 Change coordinates due to line
+
 $`
 line_y = sin(linephi)sin(teta)r
 `$
