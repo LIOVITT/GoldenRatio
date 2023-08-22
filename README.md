@@ -66,9 +66,9 @@ line_x = \sqrt{1-line_y^2-line_z^2}
 Changes x, y, and z values to sphere coordinates
 
 $`
-alpha_0 = (pi/(n_d/2))i
+alpha_0 = (pi/(n_d/2))i 
 `$
-where n_d is 12 - values og spirals
+where $`n_d`$ is 12 - values og spirals
 
 $`
 \line_x_d = cos(alpha_0)line_x - sin(alpha_0)line_y, 
