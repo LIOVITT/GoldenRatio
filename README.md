@@ -30,7 +30,13 @@ radius in this case will be equal to one.
 limitation of the list from 0 to two pi is made due to the fact that the measurement system is made in radians,
 and also limitation of theta from 1.1 pi to pi/3 is obtained to create a cup effect.
 
-p_u = i^4
+To make radius and teta angle values need to use this formulas
+
+$r=a*phi^2*teta/pi$
+
+
+
+where phi is golden ration, and a is arbitrary positive real constant
 
 ## Cite program
 
