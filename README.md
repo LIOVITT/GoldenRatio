@@ -52,10 +52,10 @@ Values for the sphere envelope line
 Change coordinates due to line
 
 $`
-line_y = sin(linephi)sin(teta)r
+line_y = sin(linephi)sin(teta)r,
 `$
 $`
-line_z = sin(linephi)cos(teta)r
+line_z = sin(linephi)cos(teta)r,
 `$
 
 $`
