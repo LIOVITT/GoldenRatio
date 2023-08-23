@@ -30,9 +30,9 @@ z = cos(\phi)
 
 where phi and theta are given by the following:
 
-$\theta = [0, 2\pi]$
+$\theta \in [0, 2\pi]$
 
-$\phi = [1.1 \pi,\pi/3]$
+$\phi \in [1.1 \pi,\pi/3]$
 radius in this case will be equal to one.
 
 limitation of the list from 0 to two pi is made due to the fact that the measurement system is made in radians,
