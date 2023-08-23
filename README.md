@@ -13,7 +13,7 @@ All questions and requests can be sent to lioliovitt@gmail.com
 Result
 ---
 
-HOHOHO
+Fibonacci figure projected on the surface of the sphere 
 
 ![My Image](https://github.com/LIOVITT/GoldenRatio/blob/main/image.gif)
 
