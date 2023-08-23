@@ -20,7 +20,7 @@ Fibonacci figures projected onto the 3D surface of a sphere.
 
 Mathematical Description
 ---
-The program generates a sphere in three-dimensional space using a multidimensional list with linear relationships and constraints ranging from 0 to 2π for θ and from 1.1π to π/3 for φ. These constraints shape the structure to represent the golden ratio's aesthetic appeal more effectively.
+The program generates a sphere in three-dimensional space using a multidimensional list with linear relationships and constraints ranging from 0 to $2\pi$ for 0 and from $1.1\pi$ to $\pi/3$ for $\phi$. These constraints shape the structure to represent the golden ratio's aesthetic appeal more effectively.
 
 The coordinates, $x$, $y$ and $z$ are determined by the following equations:
 
@@ -43,12 +43,13 @@ $\phi \in [1.1 \pi,\pi/3]$
 
 The radius in this context remains equal to one.
 
-To derive radius and θ angle values, the following formula is utilized:
+To derive radius and $\theta$ angle values, the following formula is utilized:
+
 $r=a\Phi^{2\theta/\pi}$,
 
-Here, φ is the golden ratio and 'a' is an arbitrary positive real constant.
+Here, $\phi$ is the golden ratio and 'a' is an arbitrary positive real constant.
 
-The range limitation for θ from 0 to 2π is due to the measurement system being in radians. The limitation of θ from 1.1π to π/3 is designed to achieve a cup-like structure.
+The range limitation for θ from 0 to $2\pi$ is due to the measurement system being in radians. The limitation of θ from $1.1\pi$ to $\pi/3$ is designed to achieve a cup-like structure.
 
 $\phi_{line} \in [\pi, \pi/2]$
 
@@ -68,7 +69,7 @@ The change in coordinates is guided by the angular rotation rule:
 
 $\alpha = (\pi/6)i$
 
-Since there are 12 spirals, 'i' ranges from 0 to 11. Thus, the new coordinates for each figure are:
+Since there are 12 spirals, $i$ ranges from 0 to 11. Thus, the new coordinates for each figure are:
 
 $x_{line_{d}} = x_{line}cos(\alpha) - y_{line}sin(\alpha)$
 
