@@ -13,6 +13,7 @@ All questions and requests can be sent to lioliovitt@gmail.com
 Result
 ---
 
+![My Image](https://github.com/LIOVITT/GoldenRatio/blob/main/image.gif)
 
 
 Math description
