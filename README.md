@@ -55,15 +55,15 @@ Values for the sphere envelope line
 Change coordinates due to line
 
 $`
-y_{line} = sin(\phi_line)sin(\theta)r 
+y_{line} = sin(\phi_{line})sin(\theta)r 
 `$
 
 $`
-z_{line} = sin(\phi_line)cos(\theta)r 
+z_{line} = sin(\phi_{line})cos(\theta)r 
 `$
 
 $`
-x_{line} = \sqrt{1-line_y^2-line_z^2}
+x_{line} = \sqrt{1-y_{line}^2-z_{line}^2}
 `$
 
 
