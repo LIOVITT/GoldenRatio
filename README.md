@@ -47,7 +47,7 @@ To derive radius and $\theta$ angle values, the following formula is utilized:
 
 $r=a\Phi^{2\theta/\pi}$,
 
-Here, $\phi$ is the golden ratio and 'a' is an arbitrary positive real constant.
+here, $\Phi$ is the golden ratio and $a$ is an arbitrary positive real constant.
 
 The range limitation for θ from 0 to $2\pi$ is due to the measurement system being in radians. The limitation of θ from $1.1\pi$ to $\pi/3$ is designed to achieve a cup-like structure.
 
@@ -58,9 +58,9 @@ Value for the sphere envelope line
 
 To transform the coordinates according to the enveloping line:
 
-$y_{line} = sin(\phi_{line})sin(\theta)r$
+$y_{line} = r \cdot sin(\phi_{line})sin(\theta)$
 
-$z_{line} = sin(\phi_{line})cos(\theta)r$
+$z_{line} = r \cdot sin(\phi_{line})cos(\theta)$
 
 $x_{line} = \sqrt{1-y_{line}^2-z_{line}^2}$
 
