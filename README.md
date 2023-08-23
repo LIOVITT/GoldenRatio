@@ -40,7 +40,7 @@ and also limitation of theta from 1.1 pi to pi/3 is obtained to create a cup eff
 
 To make radius and theta angle values need to use this formulas
 
-$`r=a\phi^{2/theta/\pi}`$
+$`r=a\phi^{2\theta/\pi}`$
 
 where $\phi$ is golden ration, and $a$ is arbitrary positive real constant
 
