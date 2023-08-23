@@ -2,29 +2,28 @@ GoldenRatio 3D version 1.0
 ====================
 [![License](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://github.com/)
 
-**GoldenRatio 3D** is a python program for the representation of the beauty of the golden ratio in 3D. 
+**GoldenRatio 3D** is a Python program that beautifully illustrates the golden ratio in a three-dimensional context.
 
-Authors and contributor list:
+Authors and Contributors:
 ---
-_**Lev Nagornov**_ (Maintainer, Author)
+- **Lev Nagornov** (Maintainer, Author)
 
-All questions and requests can be sent to lioliovitt@gmail.com  
+For any inquiries and requests, feel free to contact us at lioliovitt@gmail.com.
 
 Result
 ---
 
-Fibonacci figures projected on the 3D surface of the sphere 
+Fibonacci figures projected onto the 3D surface of a sphere.
 
 ![My Image](https://github.com/LIOVITT/GoldenRatio/blob/main/image.gif)
 
 
-Math description
+Mathematical Description
 ---
-First, the program creates a sphere in three-dimensional space, for this we set a multidimensional list with a linear
-relationship and constraints from 0 to 2 $\pi$ and from 1.1 $\pi$ to $\pi$ divided by three, all this is needed to create the shape
-of the cup, for a better representation of the beauty of the golden ratio.
+The program generates a sphere in three-dimensional space using a multidimensional list with linear relationships and constraints ranging from 0 to 2π for θ and from 1.1π to π/3 for φ. These constraints shape the structure to represent the golden ratio's aesthetic appeal more effectively.
 
-$x$, $y$ and $z$ are given by the following formulas:
+The coordinates, $x$, $y$ and $z$ are determined by the following equations:
+
 
 $x = sin(\phi) cos(\theta),$
 
@@ -32,30 +31,27 @@ $y = sin(\phi) sin(\theta), $
 
 $z = cos(\phi)$
 
-where $\phi$ and $\theta$ are run in the ranges:
+Where φ and θ are within the following ranges:
 
 $\theta \in [0, 2\pi]$
 
 $\phi \in [1.1 \pi,\pi/3]$
 
-radius in this case will be equal to one.
+The radius in this context remains equal to one.
 
-The limitation of the list from 0 to $2\pi$ is made due to the fact that the measurement system is made in radians,
-and also limitation of theta from 1.1 $\pi$ to $\pi/3$ is obtained to create a cup effect.
-
-To make radius and theta angle values need to use this formulas
-
+To derive radius and θ angle values, the following formula is utilized:
 $r=a\Phi^{2\theta/\pi}$,
 
-where $\Phi$ is golden ration, 
-and $a$ is arbitrary positive real constant
+Here, φ is the golden ratio and 'a' is an arbitrary positive real constant.
+
+The range limitation for θ from 0 to 2π is due to the measurement system being in radians. The limitation of θ from 1.1π to π/3 is designed to achieve a cup-like structure.
 
 $\phi_{line} \in [\pi, \pi/2]$
 
 Value for the sphere envelope line
 
 
-Change coordinates due to line
+To transform the coordinates according to the enveloping line:
 
 $y_{line} = sin(\phi_{line})sin(\theta)r$
 
@@ -64,13 +60,11 @@ $z_{line} = sin(\phi_{line})cos(\theta)r$
 $x_{line} = \sqrt{1-y_{line}^2-z_{line}^2}$
 
 
-Changes $x$, $y$, and $z$ values to sphere coordinates using the rule of angular rotation:
+The change in coordinates is guided by the angular rotation rule:
 
 $\alpha = (\pi/6)i$
 
-where we have 12 spirals, so $i \in [0,11]$.
-
-So new coordinates of each figures will be:
+Since there are 12 spirals, 'i' ranges from 0 to 11. Thus, the new coordinates for each figure are:
 
 $x_{line_{d}} = x_{line}cos(\alpha) - y_{line}sin(\alpha)$
 
