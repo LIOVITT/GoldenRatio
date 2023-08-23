@@ -53,7 +53,6 @@ teta = np.array(teta)
 
 
 # Create a line on the surface of the sphere
-line_theta = np.linspace(0, np.pi, n+1)
 line_phi = np.linspace(np.pi, np.pi/2, n+1)
 
 

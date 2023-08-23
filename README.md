@@ -45,11 +45,9 @@ $r=a\phi^{2\theta/\pi}$
 where $\phi$ is golden ration, and $a$ is arbitrary positive real constant
 
 
-$\theta_{line} \in [0, \pi]$
-
 $\phi_{line} \in [\pi, \pi/2]$
 
-Values for the sphere envelope line
+Value for the sphere envelope line
 
 
 Change coordinates due to line
