@@ -47,7 +47,7 @@ where $\phi$ is golden ration, and $a$ is arbitrary positive real constant
 
 $\theta_{line} \in [0, \pi]$
 
-$\pi_{line} \in [\pi, \pi/2]$
+$\phi_{line} \in [\pi, \pi/2]$
 
 Values for the sphere envelope line
 
@@ -55,10 +55,11 @@ Values for the sphere envelope line
 Change coordinates due to line
 
 $`
-line_y = sin(line\phi)sin(\theta)r, 
+line_y = sin(line\phi)sin(\theta)r 
 `$
+
 $`
-line_z = sin(line\phi)cos(\theta)r, 
+line_z = sin(line\phi)cos(\theta)r 
 `$
 
 $`
