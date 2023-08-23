@@ -73,15 +73,15 @@ alpha_0 = (\pi/(n_d/2))i
 where $`n_d`$ is 12 - values of spirals
 
 $`
-x_{d_{line}} = cos(alpha_0)x_{line} - sin(alpha_0)y_{line}, 
+x_{line_{d}} = cos(alpha_0)x_{line} - sin(alpha_0)y_{line}, 
 `$
 
 $`
-y_{d_{line}} = sin(alpha_0)x_{line} + cos(alpha_0)y_{line}, 
+y_{line_{d}} = sin(alpha_0)x_{line} + cos(alpha_0)y_{line}, 
 `$
 
 $`
-z_{d_{line}} = z_{line}
+z_{line_{d}} = z_{line}
 `$
 
 
