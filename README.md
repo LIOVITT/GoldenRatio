@@ -72,11 +72,11 @@ $\alpha = (\pi/6)i$
 
 Since there are 12 spirals, $i$ ranges from 0 to 11. Thus, the new coordinates for each figure are:
 
-$x_{line_{d}} = x_{line}cos(\alpha) - y_{line}sin(\alpha)$
+$x_{line_{i}} = x_{line}cos(\alpha) - y_{line}sin(\alpha)$
 
-$y_{line_{d}} = x_{line}sin(\alpha) + y_{line}cos(\alpha)$
+$y_{line_{i}} = x_{line}sin(\alpha) + y_{line}cos(\alpha)$
 
-$z_{line_{d}} = z_{line}$
+$z_{line_{i}} = z_{line}$
 
 
 ## Cite program
