@@ -66,8 +66,9 @@ $x_{line} = \sqrt{1-y_{line}^2-z_{line}^2}$
 
 Changes $x$, $y$, and $z$ values to sphere coordinates
 
-$\alpha = (\pi/(n_d/2))i$
-where $`n_d`$ is 12 - values of spirals
+$\alpha = (\pi/6)i$
+
+where we have 12 spirals, so $i \in [0,11]$.
 
 $x_{line_{d}} = cos(\alpha)x_{line} - sin(\alpha)y_{line}$
 
