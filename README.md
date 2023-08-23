@@ -23,7 +23,7 @@ of the cup, for a better representation of the beauty of the golden ratio.
 
 $x$, $y$ and $z$ are given by the following formulas:
 
-$ x = sin(\phi) cos(\theta), $
+$x = sin(\phi) cos(\theta),$
 
 $y = sin(\phi) sin(\theta), $
 
@@ -53,16 +53,16 @@ Value for the sphere envelope line
 
 Change coordinates due to line
 
-$y_{line} = sin(\phi_{line})sin(\theta)r $
+$y_{line} = sin(\phi_{line})sin(\theta)r$
 
-$z_{line} = sin(\phi_{line})cos(\theta)r $
+$z_{line} = sin(\phi_{line})cos(\theta)r$
 
 $x_{line} = \sqrt{1-y_{line}^2-z_{line}^2}$
 
 
 Changes $x$, $y$, and $z$ values to sphere coordinates
 
-$\alpha = (\pi/(n_d/2))i $
+$\alpha = (\pi/(n_d/2))i$
 where $`n_d`$ is 12 - values of spirals
 
 $x_{line_{d}} = cos(\alpha)x_{line} - sin(\alpha)y_{line}$
