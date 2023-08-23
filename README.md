@@ -28,7 +28,7 @@ $`
 z = cos(\phi)
 `$
 
-whrere phi and theta are given by the following:
+where phi and theta are given by the following:
 
 $\theta = [0, 2\pi]$
 
@@ -38,11 +38,11 @@ radius in this case will be equal to one.
 limitation of the list from 0 to two pi is made due to the fact that the measurement system is made in radians,
 and also limitation of theta from 1.1 pi to pi/3 is obtained to create a cup effect.
 
-To make radius and teta angle values need to use this formulas
+To make radius and theta angle values need to use this formulas
 
-$`r=aphi^{2teta/pi}`$
+$`r=a\phi^{2\teta/\pi}`$
 
-where phi is golden ration, and a is arbitrary positive real constant
+where $\phi$ is golden ration, and $a$ is arbitrary positive real constant
 
 
 linetheta = np.linspace(0, pi, n+1)
@@ -91,5 +91,5 @@ For publication, please, be kind to use next reference:
 
 - Model description and first version of GoldenRatio
 
-Lev Nagornov,  GoldenRatio 3D: a python software for drawing lines based on golden ratio on a 3D surface (https://github.com/LIOVITT/GoldenRatio)
+Lev Nagornov,  GoldenRatio 3D: a python software for drawing lines based on the golden ratio on a 3D surface (https://github.com/LIOVITT/GoldenRatio)
 
