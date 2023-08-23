@@ -1,6 +1,6 @@
 GoldenRatio 3D version 1.0
 ====================
-[![License](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://github.com/)
+[![License](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/LIOVITT/GoldenRatio/blob/main/LICENSE)
 
 **GoldenRatio 3D** is a Python program that beautifully illustrates the golden ratio in a three-dimensional context.
 
