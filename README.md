@@ -72,9 +72,9 @@ where we have 12 spirals, so $i \in [0,11]$.
 
 So new coordinates of each figures will be:
 
-$x_{line_{d}} = cos(\alpha)x_{line} - sin(\alpha)y_{line}$
+$x_{line_{d}} = x_{line}cos(\alpha) - y_{line}sin(\alpha)$
 
-$y_{line_{d}} = sin(\alpha)x_{line} + cos(\alpha)y_{line}$
+$y_{line_{d}} = x_{line}sin(\alpha) + y_{line}cos(\alpha)$
 
 $z_{line_{d}} = z_{line}$
 
