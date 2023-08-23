@@ -35,7 +35,7 @@ to satisfy the equation of the sphere:
 
 $x^2+y^2+z^2 = 1$
 
-Where φ and θ are within the following ranges:
+Where $\phi$ and $\theta$ are within the following ranges:
 
 $\theta \in [0, 2\pi]$
 
