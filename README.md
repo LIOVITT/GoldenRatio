@@ -45,8 +45,8 @@ $`r=a\phi^{2\theta/\pi}`$
 where $\phi$ is golden ration, and $a$ is arbitrary positive real constant
 
 
-linetheta = np.linspace(0, pi, n+1)
-linephi = np.linspace(pi, pi/2, n+1)
+linetheta = np.linspace(0, \pi, n+1)
+linephi = np.linspace(\pi, \pi/2, n+1)
 
 Values for the sphere envelope line
 
@@ -54,10 +54,10 @@ Values for the sphere envelope line
 Change coordinates due to line
 
 $`
-line_y = sin(linephi)sin(teta)r, 
+line_y = sin(line\phi)sin(\theta)r, 
 `$
 $`
-line_z = sin(linephi)cos(teta)r, 
+line_z = sin(line\phi)cos(\theta)r, 
 `$
 
 $`
@@ -68,7 +68,7 @@ line_x = \sqrt{1-line_y^2-line_z^2}
 Changes x, y, and z values to sphere coordinates
 
 $`
-alpha_0 = (pi/(n_d/2))i 
+alpha_0 = (\pi/(n_d/2))i 
 `$
 where $`n_d`$ is 12 - values of spirals
 
