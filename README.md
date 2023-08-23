@@ -45,8 +45,8 @@ $`r=a\phi^{2\theta/\pi}`$
 where $\phi$ is golden ration, and $a$ is arbitrary positive real constant
 
 
-linetheta = np.linspace(0, \pi, n+1)
-linephi = np.linspace(\pi, \pi/2, n+1)
+$line_\theta = np.linspace(0, \pi, n+1)$
+$line_\phi = np.linspace(\pi, \pi/2, n+1)$
 
 Values for the sphere envelope line
 
