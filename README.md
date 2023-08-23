@@ -73,11 +73,11 @@ $`
 where $`n_d`$ is 12 - values of spirals
 
 $`
-x_{line_{d}} = cos(\alpha)x_{line} - sin(\alpha)y_{line}, 
+x_{line_{d}} = cos(\alpha)x_{line} - sin(\alpha)y_{line}
 `$
 
 $`
-y_{line_{d}} = sin(\alpha)x_{line} + cos(\alpha)y_{line}, 
+y_{line_{d}} = sin(\alpha)x_{line} + cos(\alpha)y_{line} 
 `$
 
 $`
