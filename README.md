@@ -68,16 +68,16 @@ x_{line} = \sqrt{1-y_{line}^2-z_{line}^2}
 Changes x, y, and z values to sphere coordinates
 
 $`
-\alpha_0 = (\pi/(n_d/2))i 
+\alpha = (\pi/(n_d/2))i 
 `$
 where $`n_d`$ is 12 - values of spirals
 
 $`
-x_{line_{d}} = cos(\alpha_0)x_{line} - sin(\alpha_0)y_{line}, 
+x_{line_{d}} = cos(\alpha)x_{line} - sin(\alpha)y_{line}, 
 `$
 
 $`
-y_{line_{d}} = sin(\alpha_0)x_{line} + cos(\alpha_0)y_{line}, 
+y_{line_{d}} = sin(\alpha)x_{line} + cos(\alpha)y_{line}, 
 `$
 
 $`
