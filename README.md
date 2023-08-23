@@ -73,7 +73,7 @@ alpha_0 = (\pi/(n_d/2))i
 where $`n_d`$ is 12 - values of spirals
 
 $`
-line{x_d} = cos(alpha_0)line_x - sin(alpha_0)line_y, 
+x_{d_line} = cos(alpha_0)line_x - sin(alpha_0)line_y, 
 `$
 
 $`
