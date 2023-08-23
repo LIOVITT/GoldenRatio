@@ -49,7 +49,8 @@ $r=a\Phi^{2\theta/\pi}$,
 
 here, $\Phi$ is the golden ratio and $a$ is an arbitrary positive real constant.
 
-The range limitation for θ from 0 to $2\pi$ is due to the measurement system being in radians. The limitation of θ from $1.1\pi$ to $\pi/3$ is designed to achieve a cup-like structure.
+The range limitation for $\theta$ from 0 to $2\pi$ is due to the measurement system being in radians. 
+The limitation of $\theta$ from $1.1\pi$ to $\pi/3$ is designed to achieve a cup-like structure.
 
 $\phi_{line} \in [\pi, \pi/2]$
 
