@@ -12,25 +12,27 @@ All questions and requests can be sent to lioliovitt@gmail.com
 
 Description
 ---
-First, programm creates a sphere in three-dimensional space, for this we set a multidimensional list with a linear
-relationship and constraints from 0 to 2 pi and from 1.1 pi to pi divided by three, all this is needed to create the shape
+First, the program creates a sphere in three-dimensional space, for this we set a multidimensional list with a linear
+relationship and constraints from 0 to 2 $\pi$ and from 1.1 $\pi$ to $\pi$ divided by three, all this is needed to create the shape
 of the cup, for a better representation of the beauty of the golden ratio.
 
-x, y and z are given by the following formulas:
+$x$, $y$ and $z$ are given by the following formulas:
 
 $`
-x = sin(phi) cos(theta),
+x = sin(\phi) cos(\theta),
 `$
 $`
-y = sin(phi) sin(theta),
+y = sin(\phi) sin(\theta),
 `$
 $`
-z = cos(phi)
+z = cos(\phi)
 `$
 
 whrere phi and theta are given by the following:
 
-theta, phi = [0:2*pi:100],[1.1*pi:pi/3:100]
+$\theta = [0, 2\pi]$
+
+$\phi = [1.1 \pi,\pi/3]$
 radius in this case will be equal to one.
 
 limitation of the list from 0 to two pi is made due to the fact that the measurement system is made in radians,
