@@ -37,12 +37,13 @@ $\phi \in [1.1 \pi,\pi/3]$
 
 radius in this case will be equal to one.
 
-The limitation of the list from 0 to two $\pi$ is made due to the fact that the measurement system is made in radians,
+The limitation of the list from 0 to $2\pi$ is made due to the fact that the measurement system is made in radians,
 and also limitation of theta from 1.1 $\pi$ to $\pi/3$ is obtained to create a cup effect.
 
 To make radius and theta angle values need to use this formulas
 
 $r=a\Phi^{2\theta/\pi}$,
+
 where $\Phi$ is golden ration, 
 and $a$ is arbitrary positive real constant
 
